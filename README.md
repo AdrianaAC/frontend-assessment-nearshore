@@ -1,46 +1,64 @@
-# Getting Started with Create React App
+# Nearshore — Frontend Technical Assessment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains my solution for a **frontend technical assessment** completed during a recruitment process.
 
-## Available Scripts
+The goal of the challenge was to implement a frontend interface using modern React practices, focusing on component architecture, data handling, and clean UI implementation.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React component-based architecture
+- Client-side navigation using **React Router**
+- Dynamic rendering of data
+- Reusable UI components
+- Clean and modular folder structure
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## 🧰 Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- TypeScript
+- React Router
+- Vite
+- CSS
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📁 Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+src
+├── components # Reusable UI components
+├── pages # Application pages
+├── assets # Images / static files
+├── App.tsx # Main application entry
+└── main.tsx # Application bootstrap
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ▶️ Run the Project Locally
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Install dependencies:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
+Start the development server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+npm run dev
+```
+The application will start on the local development server provided by Vite.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+##📌 Notes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This repository represents my personal implementation of the challenge and was created for demonstration and portfolio purposes.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If additional time were available, possible improvements could include:
+ - Adding unit tests with React Testing Library
+ - Improving accessibility
+ - Adding loading and error states
+ - Improving responsiveness for smaller screens
